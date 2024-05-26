@@ -1,4 +1,4 @@
-# KWin Script Notch Cut Accommodation for Plasma 5
+# KWin Script Notch Cut Accommodation for Plasma 6
 
 This is a KWin script that automatically resizes all windows so that they're not obstructed by the MacBook's notch and adjusts the taskbar size to match it. It also hides the taskbar when a window is in fullscreen to avoid a conspicuous light at the top of the screen.
 
