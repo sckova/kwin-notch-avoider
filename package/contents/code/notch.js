@@ -137,7 +137,7 @@ workspace.clientMaximizeSet.connect((client, maxH, maxW) => {
 });
 
 workspace.clientAdded.connect(connectClient);
-workspace.clientList().forEach(connectClient);
+workspace.clients.forEach(connectClient);
 
 workspace.clientActivated.connect((client) => {
 	const autoHidePanel = isRightScreen(client) && client.fullScreen;
@@ -153,7 +153,7 @@ workspace.screenResized.connect((screenId) => {
 	const realNotchThickness = Math.round(notchThickness * scale);
 	updateTaskbarThickness(realNotchThickness);
 
-	workspace.clientList().forEach(changeYPosIfNecessary);
+	workspace.clients.forEach(changeYPosIfNecessary);
 });
 
 updateTaskbarThickness();

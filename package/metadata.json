@@ -1,4 +1,5 @@
 {
+  "KPackageStructure": "KWin/Script",
   "KPlugin": {
     "Name": "Kwin/Plasma notch avoider",
     "Description": "A KWin script to accomodate notch cuts",
@@ -7,6 +8,10 @@
       {
         "Email": "louis.mouhat@gmail.com",
         "Name": "Louis Mouhat"
+      },
+      {
+        "Email": "kovacsmillio@gmail.com",
+        "Name": "Sean Kovacs"
       }
     ],
     "Id": "notch",
